@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/libcore" />
+
+  <!-- Device -->
+    <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="device/google/bramble" />
+  <remove-project name="device/google/bramble-sepolicy" />
+  <remove-project name="device/google/coral" />
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/coral-sepolicy" />
+  <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-sepolicy" />
+  <remove-project name="device/google/redbull-kernel" />
+  <remove-project name="device/google/redfin" />
+  <remove-project name="device/google/redfin-sepolicy" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/mediatek/wembley-sepolicy" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
+  <remove-project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
+  <remove-project path="device/google/barbet-kernel" name="device/google/barbet-kernel" groups="device,barbet" clone-depth="1" />
+  <remove-project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
+  <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
+  <remove-project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
+
+  <!-- External -->
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8994" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/msm8x09" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/sdm845/bt" />
+  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/gps" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <remove-project name="platform/hardware/qcom/sdm845/thermal" />
+  <remove-project name="platform/hardware/qcom/sdm845/vr" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/modules/Connectivity" /> 
+  <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+
+  <!--Prebuilts -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/tools/mkbootimg" />
+  <remove-project name="platform/system/sepolicy" />
+
+</manifest>
