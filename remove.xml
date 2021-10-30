@@ -41,8 +41,6 @@
   <remove-project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
   <remove-project path="device/google/barbet-kernel" name="device/google/barbet-kernel" groups="device,barbet" clone-depth="1" />
   <remove-project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
-  <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
-  <remove-project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
@@ -50,6 +48,7 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
 
@@ -104,6 +103,9 @@
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/sepolicy" />
