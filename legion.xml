@@ -133,7 +133,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="legion" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="legion" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="legion" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage"/>
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="legion"/>
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="legion" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="legion" />
 
@@ -173,10 +173,10 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="legion"/>
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="legion"/>
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="legion" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="legion" />
   <project path="vendor/qcom/opensource/healthd-ext" name="vendor_qcom_opensource_healthd-ext" remote="legion"/>
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="legion" />
-  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" />
+  <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="legion" />
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="legion" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="legion" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" remote="legion" />
