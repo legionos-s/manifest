@@ -59,9 +59,7 @@ $ make legion
  =======
 
  * [**LineageOS**](https://github.com/LineageOS)
- * [**Xtended**](https://github.com/Project-Xtended)
- * [**Colt**](https://github.com/Colt-Enigma)
- * [**ROS**](https://github.com/RevengeOS)
+ * [**ArrowOS**](https://github.com/ArrowOS)
  * [**ManyMore from where cherry-picked from**](https://github.com)
 
 ---------------------------------------------------------------------------------------
@@ -85,4 +83,3 @@ $ make legion
  =======
 
 Thread template for XDA refer [**HERE**](https://github.com/Project-LegionOS/xda_template/blob/10/template.txt)
-
